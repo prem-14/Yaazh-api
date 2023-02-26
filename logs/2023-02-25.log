@@ -1,0 +1,356 @@
+[error] 05:24:41: uncaughtException: require(...)(...) is not a function
+TypeError: require(...)(...) is not a function
+    at Object.<anonymous> (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\app.js:7:7)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+[error] 05:24:41: uncaughtException: require(...)(...) is not a function
+TypeError: require(...)(...) is not a function
+    at Object.<anonymous> (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\app.js:7:7)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+[error] 05:24:41: uncaughtException: require(...)(...) is not a function
+TypeError: require(...)(...) is not a function
+    at Object.<anonymous> (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\app.js:7:7)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+[error] 05:26:47: uncaughtException: require(...)(...) is not a function
+TypeError: require(...)(...) is not a function
+    at Object.<anonymous> (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\app.js:7:7)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+[error] 05:26:47: uncaughtException: require(...)(...) is not a function
+TypeError: require(...)(...) is not a function
+    at Object.<anonymous> (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\app.js:7:7)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+[error] 05:26:47: uncaughtException: require(...)(...) is not a function
+TypeError: require(...)(...) is not a function
+    at Object.<anonymous> (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\app.js:7:7)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+[error] 05:27:40: uncaughtException: require(...)(...) is not a function
+TypeError: require(...)(...) is not a function
+    at Object.<anonymous> (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\app.js:7:7)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+[error] 05:27:40: uncaughtException: require(...)(...) is not a function
+TypeError: require(...)(...) is not a function
+    at Object.<anonymous> (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\app.js:7:7)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+[error] 05:27:40: uncaughtException: require(...)(...) is not a function
+TypeError: require(...)(...) is not a function
+    at Object.<anonymous> (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\app.js:7:7)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+[error] 05:27:47: uncaughtException: require(...)(...) is not a function
+TypeError: require(...)(...) is not a function
+    at Object.<anonymous> (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\app.js:7:7)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+[error] 05:27:47: uncaughtException: require(...)(...) is not a function
+TypeError: require(...)(...) is not a function
+    at Object.<anonymous> (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\app.js:7:7)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+[error] 05:27:47: uncaughtException: require(...)(...) is not a function
+TypeError: require(...)(...) is not a function
+    at Object.<anonymous> (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\app.js:7:7)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+[error] 05:28:30: uncaughtException: require(...)(...) is not a function
+TypeError: require(...)(...) is not a function
+    at Object.<anonymous> (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\app.js:7:7)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+[error] 05:28:30: uncaughtException: require(...)(...) is not a function
+TypeError: require(...)(...) is not a function
+    at Object.<anonymous> (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\app.js:7:7)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+[error] 05:28:30: uncaughtException: require(...)(...) is not a function
+TypeError: require(...)(...) is not a function
+    at Object.<anonymous> (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\app.js:7:7)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+[error] 05:29:06: uncaughtException: require(...)(...) is not a function
+TypeError: require(...)(...) is not a function
+    at Object.<anonymous> (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\app.js:7:7)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+[error] 05:29:06: uncaughtException: require(...)(...) is not a function
+TypeError: require(...)(...) is not a function
+    at Object.<anonymous> (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\app.js:7:7)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+[error] 05:29:06: uncaughtException: require(...)(...) is not a function
+TypeError: require(...)(...) is not a function
+    at Object.<anonymous> (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\app.js:7:7)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+[error] 05:29:54: uncaughtException: require(...)(...) is not a function
+TypeError: require(...)(...) is not a function
+    at Object.<anonymous> (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\app.js:7:7)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+[error] 05:29:54: uncaughtException: require(...)(...) is not a function
+TypeError: require(...)(...) is not a function
+    at Object.<anonymous> (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\app.js:7:7)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+[error] 05:29:54: uncaughtException: require(...)(...) is not a function
+TypeError: require(...)(...) is not a function
+    at Object.<anonymous> (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\app.js:7:7)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+[error] 05:33:54: uncaughtException: require(...)(...) is not a function
+TypeError: require(...)(...) is not a function
+    at Object.<anonymous> (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\app.js:7:7)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+[error] 05:33:54: uncaughtException: require(...)(...) is not a function
+TypeError: require(...)(...) is not a function
+    at Object.<anonymous> (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\app.js:7:7)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+[error] 05:33:54: uncaughtException: require(...)(...) is not a function
+TypeError: require(...)(...) is not a function
+    at Object.<anonymous> (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\app.js:7:7)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+[error] 05:35:15: unhandledRejection: logger.info is not a function
+TypeError: logger.info is not a function
+    at module.exports (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\loaders\index.js:5:12)
+    at startServer (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\app.js:6:5)
+    at Object.<anonymous> (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\app.js:9:1)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+[error] 05:35:15: unhandledRejection: logger.info is not a function
+TypeError: logger.info is not a function
+    at module.exports (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\loaders\index.js:5:12)
+    at startServer (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\app.js:6:5)
+    at Object.<anonymous> (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\app.js:9:1)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+[error] 05:35:15: unhandledRejection: logger.info is not a function
+TypeError: logger.info is not a function
+    at module.exports (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\loaders\index.js:5:12)
+    at startServer (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\app.js:6:5)
+    at Object.<anonymous> (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\app.js:9:1)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+[info] 05:35:37: fhfjkh
+[info] 15:18:13: PG client is connected. ID: 43572
+[info] 15:18:13: PG client is acquired. ID: 43572
+[info] 15:19:18: PG client is connected. ID: 46944
+[info] 15:19:18: PG client is acquired. ID: 46944
+[error] 15:24:30: unhandledRejection: password authentication failed for user "postgre"
+Error: password authentication failed for user "postgre"
+    at connectDB (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\loaders\postgres.js:46:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async module.exports (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\loaders\index.js:6:5)
+[error] 15:24:30: unhandledRejection: password authentication failed for user "postgre"
+Error: password authentication failed for user "postgre"
+    at connectDB (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\loaders\postgres.js:46:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async module.exports (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\loaders\index.js:6:5)
+[error] 15:24:30: unhandledRejection: password authentication failed for user "postgre"
+Error: password authentication failed for user "postgre"
+    at connectDB (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\loaders\postgres.js:46:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async module.exports (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\loaders\index.js:6:5)
+[error] 15:46:44: unhandledRejection: password authentication failed for user "postgre"
+Error: password authentication failed for user "postgre"
+    at connectDB (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\loaders\postgres.js:46:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async module.exports (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\loaders\index.js:6:5)
+[error] 15:46:44: unhandledRejection: password authentication failed for user "postgre"
+Error: password authentication failed for user "postgre"
+    at connectDB (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\loaders\postgres.js:46:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async module.exports (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\loaders\index.js:6:5)
+[error] 15:46:44: unhandledRejection: password authentication failed for user "postgre"
+Error: password authentication failed for user "postgre"
+    at connectDB (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\loaders\postgres.js:46:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async module.exports (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\loaders\index.js:6:5)
+[info] 15:47:09: PG client is connected. ID: 43584
+[info] 15:47:09: PG client is acquired. ID: 43584
+[info] 15:47:58: PG client is connected. ID: 45656
+[info] 15:47:58: PG client is acquired. ID: 45656
+[info] 15:47:58: [object Object]
+[info] 17:50:15: Server started at port 5000
+[info] 17:51:27: Server started at port 5000
+[info] 17:51:47: Server started at port 5000
+[info] 17:52:42: Server started at port 5000
+[info] 17:54:54: Server started at port 5000
+[error] 17:54:55: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at Server.attach (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\node_modules\socket.io\dist\index.js:222:17)
+    at new Server (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\node_modules\socket.io\dist\index.js:118:18)
+    at module.exports (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\node_modules\socket.io\dist\index.js:798:33)
+    at module.exports (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\loaders\connections.js:7:37)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async module.exports (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\loaders\index.js:8:5)
+[error] 17:54:55: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at Server.attach (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\node_modules\socket.io\dist\index.js:222:17)
+    at new Server (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\node_modules\socket.io\dist\index.js:118:18)
+    at module.exports (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\node_modules\socket.io\dist\index.js:798:33)
+    at module.exports (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\loaders\connections.js:7:37)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async module.exports (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\loaders\index.js:8:5)
+[error] 17:54:55: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at Server.attach (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\node_modules\socket.io\dist\index.js:222:17)
+    at new Server (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\node_modules\socket.io\dist\index.js:118:18)
+    at module.exports (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\node_modules\socket.io\dist\index.js:798:33)
+    at module.exports (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\loaders\connections.js:7:37)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async module.exports (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\loaders\index.js:8:5)
+[info] 17:55:03: Server started at port 5000
+[info] 17:55:17: Server started at port 5000
+[info] 18:00:39: Server started at port 5000
+[info] 18:01:02: Server started at port 5000
+[info] 18:01:21: Server started at port 5000
+[info] 18:05:32: Server started at port 5000
+[info] 18:06:27: Server started at port 5000
+[info] 18:06:49: Server started at port 5000
+[info] 18:06:59: Server started at port 5000
+[error] 20:55:52: unhandledRejection: Cannot read properties of undefined (reading 'all')
+TypeError: Cannot read properties of undefined (reading 'all')
+    at module.exports (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\loaders\routes.js:6:9)
+    at module.exports (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\loaders\index.js:12:5)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 20:55:52: unhandledRejection: Cannot read properties of undefined (reading 'all')
+TypeError: Cannot read properties of undefined (reading 'all')
+    at module.exports (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\loaders\routes.js:6:9)
+    at module.exports (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\loaders\index.js:12:5)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 21:11:20: unhandledRejection: index is not defined
+ReferenceError: index is not defined
+    at module.exports (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\loaders\routes.js:6:26)
+    at module.exports (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\loaders\index.js:11:5)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 21:11:20: unhandledRejection: index is not defined
+ReferenceError: index is not defined
+    at module.exports (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\loaders\routes.js:6:26)
+    at module.exports (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\loaders\index.js:11:5)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)

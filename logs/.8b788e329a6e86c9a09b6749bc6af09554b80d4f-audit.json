@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 2
+    },
+    "auditLog": "D:\\Yaazh\\Yaazh v2\\Yaazh-api-postgress\\logs\\.8b788e329a6e86c9a09b6749bc6af09554b80d4f-audit.json",
+    "files": [
+        {
+            "date": 1677282881008,
+            "name": "D:\\Yaazh\\Yaazh v2\\Yaazh-api-postgress\\logs\\2023-02-25.log",
+            "hash": "99667b22f069948e60326e10c61194c330af7ff9ac2ad60fe575897ecf438fe5"
+        }
+    ],
+    "hashType": "sha256"
+}
