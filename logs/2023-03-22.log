@@ -1,0 +1,48 @@
+[error] 06:28:13: uncaughtException: Cannot read properties of undefined (reading 'text')
+TypeError: Cannot read properties of undefined (reading 'text')
+    at D:\Yaazh\Yaazh v2\Yaazh-api-postgress\loaders\postgres.js:27:44
+    at Query.<anonymous> (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\node_modules\pg-pool\index.js:421:18)
+    at Query.handleReadyForQuery (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\node_modules\pg\lib\query.js:139:14)
+    at Client._handleReadyForQuery (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\node_modules\pg\lib\client.js:301:19)
+    at Connection.emit (node:events:390:28)
+    at D:\Yaazh\Yaazh v2\Yaazh-api-postgress\node_modules\pg\lib\connection.js:119:12
+    at Parser.parse (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\node_modules\pg-protocol\dist\parser.js:40:17)
+    at Socket.<anonymous> (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+[error] 06:28:13: uncaughtException: Cannot read properties of undefined (reading 'text')
+TypeError: Cannot read properties of undefined (reading 'text')
+    at D:\Yaazh\Yaazh v2\Yaazh-api-postgress\loaders\postgres.js:27:44
+    at Query.<anonymous> (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\node_modules\pg-pool\index.js:421:18)
+    at Query.handleReadyForQuery (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\node_modules\pg\lib\query.js:139:14)
+    at Client._handleReadyForQuery (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\node_modules\pg\lib\client.js:301:19)
+    at Connection.emit (node:events:390:28)
+    at D:\Yaazh\Yaazh v2\Yaazh-api-postgress\node_modules\pg\lib\connection.js:119:12
+    at Parser.parse (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\node_modules\pg-protocol\dist\parser.js:40:17)
+    at Socket.<anonymous> (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+[error] 12:06:36: uncaughtException: console.elog is not a function
+TypeError: console.elog is not a function
+    at BoundPool.<anonymous> (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\loaders\postgres.js:51:15)
+    at BoundPool.emit (node:events:390:28)
+    at BoundPool._remove (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\node_modules\pg-pool\index.js:163:10)
+    at BoundPool._release (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\node_modules\pg-pool\index.js:338:12)
+    at Client.release (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\node_modules\pg-pool\index.js:322:12)
+    at Query.callback (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\node_modules\pg-pool\index.js:417:18)
+    at Query.handleError (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\node_modules\pg\lib\query.js:128:19)
+    at Client._handleErrorMessage (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\node_modules\pg\lib\client.js:346:17)
+    at Connection.emit (node:events:390:28)
+    at D:\Yaazh\Yaazh v2\Yaazh-api-postgress\node_modules\pg\lib\connection.js:119:12
+[error] 12:06:36: uncaughtException: console.elog is not a function
+TypeError: console.elog is not a function
+    at BoundPool.<anonymous> (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\loaders\postgres.js:51:15)
+    at BoundPool.emit (node:events:390:28)
+    at BoundPool._remove (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\node_modules\pg-pool\index.js:163:10)
+    at BoundPool._release (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\node_modules\pg-pool\index.js:338:12)
+    at Client.release (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\node_modules\pg-pool\index.js:322:12)
+    at Query.callback (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\node_modules\pg-pool\index.js:417:18)
+    at Query.handleError (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\node_modules\pg\lib\query.js:128:19)
+    at Client._handleErrorMessage (D:\Yaazh\Yaazh v2\Yaazh-api-postgress\node_modules\pg\lib\client.js:346:17)
+    at Connection.emit (node:events:390:28)
+    at D:\Yaazh\Yaazh v2\Yaazh-api-postgress\node_modules\pg\lib\connection.js:119:12

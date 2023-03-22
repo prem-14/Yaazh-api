@@ -6,9 +6,19 @@
     "auditLog": "D:\\Yaazh\\Yaazh v2\\Yaazh-api-postgress\\logs\\.8b788e329a6e86c9a09b6749bc6af09554b80d4f-audit.json",
     "files": [
         {
-            "date": 1677282881008,
-            "name": "D:\\Yaazh\\Yaazh v2\\Yaazh-api-postgress\\logs\\2023-02-25.log",
-            "hash": "99667b22f069948e60326e10c61194c330af7ff9ac2ad60fe575897ecf438fe5"
+            "date": 1679318547375,
+            "name": "D:\\Yaazh\\Yaazh v2\\Yaazh-api-postgress\\logs\\2023-03-20.log",
+            "hash": "dfc0d39b0f6a31622ce06efaac3c5c633f00f1699d53667a061f5d2f678ebf10"
+        },
+        {
+            "date": 1679374692837,
+            "name": "D:\\Yaazh\\Yaazh v2\\Yaazh-api-postgress\\logs\\2023-03-21.log",
+            "hash": "e1f475930b987f7847c503faf5f6379e2698c86fd37a33931f8d07b5f1c9d39f"
+        },
+        {
+            "date": 1679442881128,
+            "name": "D:\\Yaazh\\Yaazh v2\\Yaazh-api-postgress\\logs\\2023-03-22.log",
+            "hash": "fdd97ef9e51058faab89bc53f4a25ca86c9ccc7180cc6481fa38a5e2920b781a"
         }
     ],
     "hashType": "sha256"
