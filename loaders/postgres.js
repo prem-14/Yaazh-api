@@ -1,32 +1,33 @@
 const { Pool } = require('pg')
+const fs = require('fs')
+const path = require('path')
 
 const connectDB = async () => {
   try {
+    // global._pgPool = new Pool({
+    //   user: 'postgres',
+    //   host: 'localhost',
+    //   database: 'Yaazh-api',
+    //   // database: 'ecommerce',
+    //   password: 'root',
+    //   port: 5432,
+    //   max: 10, // maximum number of clients the pool should contain by default this is set to 10.
+    //   connectionTimeoutMillis: 0,
+    //   idleTimeoutMillis: 0,
+    // })
+
     global._pgPool = new Pool({
-      user: 'postgres',
-      host: 'localhost',
-      database: 'ecommerce',
-      password: 'root',
-      port: 5432,
-
-      // maximum number of clients the pool should contain
-      // by default this is set to 10.
-      max: 10,
-
-      // number of milliseconds to wait before timing out when connecting a new client
-      // by default this is 0 which means no timeout
+      connectionString: `postgresql://${process.env.POSTGRES_USERNAME}:${process.env.POSTGRES_PASSWORD}@${process.env.POSTGRES_HOST}:${process.env.POSTGRES_PORT}/${process.env.POSTGRES_DATABASE}`,
+      ssl: {
+        rejectUnauthorized: false,
+        ca: fs.readFileSync(path.join(__dirname, '..', 'ca-certificate.crt')).toString(),
+      },
+      max: 10, // maximum number of clients the pool should contain by default this is set to 10.
       connectionTimeoutMillis: 0,
-
-      // number of milliseconds a client must sit idle in the pool and not be checked out
-      // before it is disconnected from the backend and discarded
-      // default is 10000 (10 seconds) - set to 0 to disable auto-disconnection of idle clients
       idleTimeoutMillis: 0,
     })
 
-    // set Time ZONE 'Asia/Calcutta';
-    // set Time ZONE 'UTC';
-
-    await _pgPool.query(`set Time ZONE 'UTC';`)
+    await _pgPool.query(`set Time ZONE 'UTC';`) // set Time ZONE 'Asia/Calcutta';
     const { rows } = await _pgPool.query('SHOW time zone;')
     console.log(rows)
 
@@ -49,6 +50,12 @@ const connectDB = async () => {
 
     _pgPool.on('remove', function (client) {
       console.log('client is closed & removed from the pool')
+    })
+
+    const client = await _pgPool.connect()
+    client.query('LISTEN pg_notification')
+    client.on('notification', ({ payload }) => {
+      console.log(JSON.parse(payload))
     })
   } catch (error) {
     throw new Error(error.message)

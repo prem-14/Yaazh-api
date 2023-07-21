@@ -1,2 +1,5 @@
 node_modules
 markdown
+.env.local
+.env
+tmp

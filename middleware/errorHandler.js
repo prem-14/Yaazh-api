@@ -22,8 +22,9 @@ const sendErrorProd = (err, req, res) => {
 module.exports = (err, req, res, next) => {
   err.statusCode = err.statusCode || 500
   err.status = err.status || 'error'
-  console.log(err.name)
+  console.log(err)
   if (err.name === 'ValidationError') err = handleValidationErrorDB(err)
+  if (['TokenExpiredError', 'JsonWebTokenError', 'NotBeforeError'].includes(err.name)) err = handleJWTError(err)
 
   if (process.env.NODE_ENV === 'production') {
     sendErrorProd(err, req, res)
@@ -36,4 +37,12 @@ function handleValidationErrorDB(err) {
   //body.id is a required field
   const message = err.message.slice(err.message.indexOf('.') + 1) // id is a required field
   return new AppError(message, 400)
+}
+
+function handleJWTError(err) {
+  if (err.name === 'TokenExpiredError') {
+    return new AppError('Session expired', 401)
+  } else {
+    return new AppError(err.message, 401)
+  }
 }

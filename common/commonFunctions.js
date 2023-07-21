@@ -1,4 +1,6 @@
 const { pgSqlQueries } = require('./queries')
+const cloudinary = require('../utils/cloudinary')
+const AppError = require('./error')
 
 exports.catchAsync = (fn) => {
   return (req, res, next) => {
@@ -217,7 +219,6 @@ exports.generateQuery = (data, totalRecords) => {
 
 exports.generateInsertData = (tableData, data) => {
   const { arrayColumns, table } = tableData
-  console.log(tableData, data)
 
   const filtered = arrayColumns.filter((column) => data.hasOwnProperty(column))
   const result = {
@@ -274,4 +275,37 @@ exports.validate = (schema) => async (req, res, next) => {
   } catch (err) {
     next(err)
   }
+}
+
+exports.slugify = (string) => {
+  let str = string ? string.toString() : ''
+  if (str) {
+    str = str.trim().toLowerCase().split(' ').join('-')
+  }
+
+  return str
+}
+
+exports.deleteImage = async (public_id) => {
+  if (!public_id) {
+    throw new Error('Please provide public_id for image to delete')
+  }
+  const data = await cloudinary.v2.uploader.destroy(public_id)
+  console.log(data)
+}
+
+exports.getNestedChildren = (arr, parent_id, level) => {
+  level++
+  var out = []
+  for (var i in arr) {
+    if (arr[i].parent_id == parent_id) {
+      var children = this.getNestedChildren(arr, arr[i].id, level)
+
+      if (children.length) {
+        arr[i].subCate = children
+      }
+      out.push({ level, ...arr[i] })
+    }
+  }
+  return out
 }

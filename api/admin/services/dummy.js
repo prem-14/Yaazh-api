@@ -54,11 +54,9 @@ exports.getAllCustomers = async (req) => {
 }
 
 exports.getCustomer = async (req) => {
-  const recordsQuery = generateQuery(req.query, 0)
-
   const { rows: records } = await _pgPool.query(
     `
-        SELECT * FROM customers c WHERE id = $1
+        SELECT * FROM customers WHERE id = $1
     `,
     [req.query.id]
   )

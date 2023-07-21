@@ -3,9 +3,7 @@ const { asyncForEach } = require('../common/commonFunctions')
 module.exports = async () => {
   global._tableConfig = {}
   // getting all the tables in the database
-  const { rows: tables } = await _pgPool.query(
-    "SELECT tablename FROM pg_catalog.pg_tables WHERE schemaname='public'"
-  )
+  const { rows: tables } = await _pgPool.query("SELECT tablename FROM pg_catalog.pg_tables WHERE schemaname='public'")
 
   await asyncForEach(tables, async (table) => {
     _tableConfig[table.tablename] = {}
@@ -20,7 +18,7 @@ module.exports = async () => {
     const {
       rows: [{ shortname }],
     } = await _pgPool.query(`
-            SELECT shortname from shortnames where tablename = '${table.tablename}';
+            SELECT shortname from config_table where tablename = '${table.tablename}';
     `)
     _tableConfig[table.tablename]['shortname'] = shortname
   })

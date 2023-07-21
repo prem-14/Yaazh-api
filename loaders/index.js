@@ -5,6 +5,7 @@ const connections = require('./connections')
 const express = require('./express')
 const socket = require('./socket')
 const routes = require('./routes')
+// const cron = require('../cron')
 
 module.exports = async (app) => {
   process
