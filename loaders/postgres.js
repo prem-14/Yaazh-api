@@ -17,15 +17,26 @@ const connectDB = async () => {
     // })
 
     global._pgPool = new Pool({
-      connectionString: `postgresql://${process.env.POSTGRES_USERNAME}:${process.env.POSTGRES_PASSWORD}@${process.env.POSTGRES_HOST}:${process.env.POSTGRES_PORT}/${process.env.POSTGRES_DATABASE}`,
-      ssl: {
-        rejectUnauthorized: false,
-        ca: fs.readFileSync(path.join(__dirname, '..', 'ca-certificate.crt')).toString(),
-      },
-      max: 10, // maximum number of clients the pool should contain by default this is set to 10.
+      user: process.env.POSTGRES_USERNAME,
+      host: process.env.POSTGRES_HOST,
+      database: process.env.POSTGRES_DATABASE,
+      password: process.env.POSTGRES_PASSWORD,
+      port: 5432,
+      max: 5, // maximum number of clients the pool should contain by default this is set to 10.
       connectionTimeoutMillis: 0,
       idleTimeoutMillis: 0,
     })
+
+    // global._pgPool = new Pool({
+    //   connectionString: `postgresql://${process.env.POSTGRES_USERNAME}:${process.env.POSTGRES_PASSWORD}@${process.env.POSTGRES_HOST}:${process.env.POSTGRES_PORT}/${process.env.POSTGRES_DATABASE}`,
+    //   ssl: {
+    //     rejectUnauthorized: false,
+    //     ca: fs.readFileSync(path.join(__dirname, '..', 'ca-certificate.crt')).toString(),
+    //   },
+    //   max: 10, // maximum number of clients the pool should contain by default this is set to 10.
+    //   connectionTimeoutMillis: 0,
+    //   idleTimeoutMillis: 0,
+    // })
 
     await _pgPool.query(`set Time ZONE 'UTC';`) // set Time ZONE 'Asia/Calcutta';
     const { rows } = await _pgPool.query('SHOW time zone;')
